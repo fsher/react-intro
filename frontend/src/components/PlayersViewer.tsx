@@ -1,19 +1,15 @@
 import * as React from 'react';
-import {Container, MainBox, PlayerList, Profile} from "./PlayersViewer.styled";
+import {Container, MainBox} from "./PlayersViewer.styled";
+import { PlayersList } from './PlayersList';
+import {Profile} from "./Profile";
 
 export const PlayersViewer: React.FunctionComponent = () => {
     return (
         <Container>
             <MainBox>
-                <Profile>
-                    Main
-                </Profile>
-                <PlayerList>
-                    Players
-                </PlayerList>
+                <Profile />
+                <PlayersList />
             </MainBox>
         </Container>
     )
-
-
 };

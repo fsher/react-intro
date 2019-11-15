@@ -6,6 +6,8 @@
         "module": "esnext",
         "target": "es5",
         "experimentalDecorators": true,
-        "jsx": "react"
+        "moduleResolution": "node",
+        "jsx": "react",
+        "baseUrl": "./src"
     }
 }
