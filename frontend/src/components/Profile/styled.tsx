@@ -61,4 +61,6 @@ export const Name = styled.div`
 export const Class = styled.div`
   font-size: 0.8rem;
   line-height: 1.5rem;
+  
+  color: #AAA;
 `;

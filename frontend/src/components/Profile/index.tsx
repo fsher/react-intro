@@ -19,10 +19,15 @@ const ProfileInfo: React.FunctionComponent<ProfileInfoProps> = ({ characterClass
     )
 };
 
-export const Profile: React.FunctionComponent = () => {
+
+interface ProfileProps {
+    character: any;
+}
+
+export const Profile: React.FunctionComponent<ProfileProps> = ({ character }) => {
     return (
-        <Container img={'https://specials-images.forbesimg.com/imageserve/5d52a10068cb0a000916cf4d/960x0.jpg?fit=scale'}>
-            <ProfileInfo characterClass={'Mage'} characterLevel={25} characterName={'Fred'} />
+        <Container img={character.image.large}>
+            <ProfileInfo characterClass={character.class} characterLevel={character.level} characterName={character.name} />
         </Container>
     );
 };

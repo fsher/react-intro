@@ -40,4 +40,4 @@ export const activePlayers: Character[] = [
         level: 1,
         class: 'Paladin'
     }
-]
+];
