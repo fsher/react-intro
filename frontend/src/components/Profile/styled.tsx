@@ -39,7 +39,7 @@ export const Level = styled.div`
   width: 100px;
   height: 100%;
   
-  background-color: #00548B;
+  background-color: #202C39;
   
   font-size: 2.5rem;
   font-weight: bold;
